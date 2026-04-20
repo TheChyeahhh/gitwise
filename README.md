@@ -47,11 +47,23 @@ $ gitwise
 
 ## Installation
 
+**Mac / Linux:**
+
 ```bash
 git clone https://github.com/TheChyeahhh/gitwise.git
 cd gitwise
 python3 -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
+source .venv/bin/activate
+pip install -e .
+```
+
+**Windows (Command Prompt or PowerShell):**
+
+```bash
+git clone https://github.com/TheChyeahhh/gitwise.git
+cd gitwise
+python -m venv .venv
+.venv\Scripts\activate
 pip install -e .
 ```
 
